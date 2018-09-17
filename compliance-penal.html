@@ -32,7 +32,7 @@
     
     <link rel="stylesheet" href="/css/project-camposycampos.libs.css">
     <link rel="stylesheet" href="/css/main.css">
-    <title>Contacto | Campos y Campos Abogados</title>
+    <title>Compliance Penal Campos & Campos Abogados</title>
     <link runat="server" rel="shortcut icon" href="/img/favicon/camposycampos-favicon.png" type="image/x-icon"/>
     <link runat="server" rel="icon" href="/img/favicon/camposycampos-favicon.png" type="image/ico"/>
     
@@ -66,6 +66,23 @@
       <img class="nav-logo" src="/img/logos/logo-cyc-white.png" alt="Nav logo">
     </a>
   </div>
+  <!-- <div class="nav-option-container">
+    <div class="nav-option-content">
+      <a href="index.html">
+        <span class="nav-option ">Inicio</span>
+      </a>
+    </div>
+    <div class="nav-option-content">
+      <a href="nosotros.html">
+        <span class="nav-option ">Nosotros</span>
+      </a>
+    </div>
+    <div class="nav-option-content">
+      <a href="contacto.html">
+        <span class="nav-option ">Contacto</span>
+      </a>
+    </div>
+  </div> -->
 
   <div data-attribute="" class="hamburger-visibility"  id="hamburgerMenu">
     <div class="nav-hamburguer" data-attribute="">
@@ -121,8 +138,8 @@
         </div>
         
         <div data-attribute="">
-          <a href="compliance.html" data-attribute="">
-            <span class="hamburger-text bebasneue-bold ">compliance</span>
+          <a href="compliance-penal.html" data-attribute="">
+            <span class="hamburger-text bebasneue-bold  hamburger-active ">compliance</span>
           </a>
         </div>
         
@@ -140,7 +157,7 @@
         
         <div data-attribute="">
           <a href="contacto.html" data-attribute="">
-            <span class="hamburger-text bebasneue-bold  hamburger-active ">contacto</span>
+            <span class="hamburger-text bebasneue-bold ">contacto</span>
           </a>
         </div>
         
@@ -151,33 +168,49 @@
 
       <main>
         
-<section class="contact">
-  <div class="contact-container">
-    <h1 class="contact-title bebasneue-bold">contacto</h1>
-    <section class="contact-content">
-      <form class="contact-form" name="camposycampos-contact-form" method="post" action="http://integrations.blick.mx/camposycampos/contact/">
-        <div class="contact-input-container">
-          <input class="contact-input helveneue" type="text" name="name" id="name" required>
-          <label class="contact-label helveneue" for="name">Nombre completo</label>
-        </div>
-        <div class="contact-input-container">
-          <input class="contact-input helveneue" type="email" name="email" id="email" required>
-          <label class="contact-label helveneue" for="email">Correo electrónico</label>
-        </div>
-        <div class="contact-input-container">
-          <input class="contact-input helveneue" type="tel" name="phone" id="phone" required>
-          <label class="contact-label helveneue" for="phone">Teléfono</label>
-        </div>
-        <div class="contact-textarea-container">
-          <label class="contact-label-textarea helveneue" for="message">Mensaje</label>
-          <textarea class="contact-textarea helveneue" type="text" name="message" id="message"></textarea>
-        </div>
-        <button class="btn helveneue-medium" type="submit">enviar</button>
-      </form>
-      <img class="contact-content-img" src="/img/contact/contact-building.jpg">
-    </section>
-  </div>
+<section class="compliance">
+  <section class="compliance-cover">
+    <h1 class="compliance-cover-title bebasneue-bold">compliance penal</h1>
+    <p class="compliance-cover-desc helveneue">Campos &amp; Campos abogados somos una de las firmas legales en México pioneras en Compliance Penal. La firma cuenta con personal capacitado y certificado en Universidades extranjeras impulsoras en la cultura de prevención en materia penal.</p>
+  </section>
+
+  <section class="compliance-info">
+    
+    <div class="compliance-info-container">
+      <img class="compliance-info-img" src="/img/compliance/compliance-trato.jpg" alt="Trato en Compliance Penal">
+      <div class="compliance-info-content">
+        <h2 class="compliance-info-title bebasneue-bold">programa<br><span>de cumplimiento</span></h2>
+        <p class="compliance-info-desc helveneue">Asimismo, Campos &amp; Campos abogados es una de las pocas firmas que han implementado internamente un programa de cumplimiento en materia penal o compliance penal dentro de la firma, lo cual representa el compromiso que tiene con la difusión e implementación de una cultura corporativa de prevención.</p>
+      </div>
+    </div>
+    
+    <div class="compliance-info-container">
+      <img class="compliance-info-img" src="/img/compliance/compliance-abogado.jpg" alt="Abogado listo para el Compliance Penal">
+      <div class="compliance-info-content">
+        <h2 class="compliance-info-title bebasneue-bold">servicios</h2>
+        <p class="compliance-info-desc helveneue">Si quieres saber más acerca de los servicios que la firma ofrece en materia de compliance penal, te invitamos a ver la presentación de servicios.</p>
+      </div>
+    </div>
+    
+  </section>
+
+  <section class="compliance-ethical">
+    <img class="compliance-ethical-img" src="/img/compliance/compliance-edificio.jpg" alt="/img/compliance/compliance-edificio.jpg">
+    <div class="compliance-ethical-card">
+      <h2 class="compliance-ethical-title bebasneue-bold">código ético</h2>
+      <p class="compliance-ethical-desc helveneue">Si quieres conocer el Código Ético de nuestra firma, presiona aquí</p>
+      <div class="compliance-ethical-btns">
+        <a href="">
+          <button class="btn helveneue-medium">descargar</button>
+        </a>
+        <a href="contacto.html">
+          <button class="btn helveneue-medium">contactar</button>
+        </a>
+      </div>
+    </div>
+  </section>
 </section>
+<div class="backgrounds-services"></div>
 
       </main>
       <footer class="footer">
@@ -190,6 +223,10 @@
     
     <a href="servicios.html">
       <span class="footer-section helveneue-medium">servicios</span>
+    </a>
+    
+    <a href="compliance-penal.html">
+      <span class="footer-section helveneue-medium">compliance</span>
     </a>
     
     <a href="nosotros.html">
